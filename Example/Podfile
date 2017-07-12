@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AmrAudio_Example' do
+  pod 'AmrAudio', :path => '../'
+  pod 'ZHLogger', :path => '../../ZHLogger'
+  target 'AmrAudio_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

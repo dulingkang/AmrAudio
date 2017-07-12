@@ -1,0 +1,22 @@
+PODS:
+  - AmrAudio (0.1.0):
+    - ZHLogger (~> 0.1.0)
+  - ZHLogger (0.1.0)
+
+DEPENDENCIES:
+  - AmrAudio (from `../`)
+  - ZHLogger (from `../../ZHLogger`)
+
+EXTERNAL SOURCES:
+  AmrAudio:
+    :path: ../
+  ZHLogger:
+    :path: ../../ZHLogger
+
+SPEC CHECKSUMS:
+  AmrAudio: 0ea699c5d3e5ec274c133211033e9e15318d34ad
+  ZHLogger: 88c3a35401601634ae756489928fe31b4b585488
+
+PODFILE CHECKSUM: 4a1052a4a8f669ae54ce9f093302fcd915503b7a
+
+COCOAPODS: 1.2.1
